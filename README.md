@@ -1,6 +1,8 @@
 # RisingSun Method-XANES_dimension-reduction
 
-This is a repository with code for the paper <h>XANES and the Rising sun Method ....</h>
+This is a repository with code for the paper <h>XANES and the Rising sun Method ....</h>, based on a very onl lemma of Riesz https://en.wikipedia.org/wiki/Rising_sun_lemma.
+
+The idea consists of "regularizing" the XANES measurement by creating several Rising-sun functions in domains that are nested and smaller, leading to the convergence of the algorithm.
 
 In order to install this package you can do the following:
 
