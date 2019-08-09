@@ -1,6 +1,6 @@
 # RisingSun Method-XANES_dimension-reduction
 
-This is a repository for the paper with code for the paper <h>Decomposing XANES  spectral measurements using the Rising Sun envelope method</h>.
+This is a companion repository for the paper  <h>Decomposing XANES  spectral measurements using the Rising Sun envelope method</h>, by R. Monteiro, I. Miyazato, and K. Takahashi. All the code for that letter is here.
 
 The method is based on a very on an old  lemma of Riesz, the Rising Sun Lemma (https://en.wikipedia.org/wiki/Rising_sun_lemma), used to study pointwise properties of functions, like its oscillations.  We use a similar construction to understand the oscillation seen in XANES, using it to "regularize" the XANES measurement by creating sequences of what we call Rising Sun functions in domains that are nested and smaller, leading to a sequence of smaller problems.
 
@@ -20,11 +20,6 @@ There are many steps in the code that can be optimized: there are many brute-for
 2. The interpolation can be improved, and other types of interpolations are possible; for instance, by using clamped splines in each domain. 
 
 
+## How is this notebook divided
 
-# Explaining the method
-
-We quantify the noise, i.e., the regularity of these curves using an oscillation function, defined as 
-
-\begin{equation}
-x = \sup_{e\leq E} = \mu(E)
-\end{equation}
+There are many auxiliary functions necessary for this code, therefore we begin by explaining them; afterwards we do the decomposition and finally we run the dimension reduction and interpolations.
