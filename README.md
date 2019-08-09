@@ -21,4 +21,10 @@ There are many steps in the code that can be optimized: there are many brute-for
 
 
 
+# Explaining the method
 
+We quantify the noise, i.e., the regularity of these curves using an oscillation function, defined as 
+
+\begin{equation}
+x = \sup_{e\leq E} = \mu(E)
+\end{equation}
