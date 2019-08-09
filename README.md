@@ -1,10 +1,10 @@
 # RisingSun Method-XANES_dimension-reduction
 
-This is a repository with code for the paper <h>XANES and the Rising sun Method ....</h>, based on a very onl lemma of Riesz https://en.wikipedia.org/wiki/Rising_sun_lemma.
+This is a repository for the paper with code for the paper <h>Decomposing XANES  spectral measurements using the Rising Sun envelope method</h>.
 
-The idea consists of "regularizing" the XANES measurement by creating several Rising-sun functions in domains that are nested and smaller, leading to the convergence of the algorithm.
+The method is based on a very on an old  lemma of Riesz, the Rising Sun Lemma (https://en.wikipedia.org/wiki/Rising_sun_lemma), used to study pointwise properties of functions, like its oscillations.  We use a similar construction to understand the oscillation seen in XANES, using it to "regularize" the XANES measurement by creating sequences of what we call Rising Sun functions in domains that are nested and smaller, leading to a sequence of smaller problems.
 
-In order to install this package you can do the following:
+
 
 
 If you cite this work, please use the following piece of code. 
@@ -17,7 +17,8 @@ There are many steps in the code that can be optimized: there are many brute-for
 ## Parts where we think the code can be improved:
 
 1. Definitely, the plateau search can be improved: it doesn't need to return only one location, but it can return all the plateau locations
-2. The interpolation can be improved
+2. The interpolation can be improved, and other types of interpolations are possible; for instance, by using clamped splines in each domain. 
+
 
 
 
