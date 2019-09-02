@@ -24,4 +24,5 @@ There are many steps in the code that can be optimized: there are many brute-for
 
 There are many auxiliary functions necessary for this code, therefore we begin by explaining them; afterwards we do the decomposition and finally we run the dimension reduction and interpolations.
 
-![image2](https://github.com/rafael-a-monteiro-math/RisingSunMethod-XANES-dimension-reduction/blob/master/XANES_some_examplesFe_foil.eps)
+[[https://github.com/rafael-a-monteiro-math/RisingSunMethod-XANES-dimension-reduction/blob/master/XANES_some_examplesFe_foil.eps]]
+
