@@ -1,3 +1,8 @@
+___
+permalink: /index.html
+- - - 
+
+
 # Rising Sun Envelope Method
 
 This is a companion repository for the paper  <h>Decomposing XANES  spectral measurements using the Rising Sun envelope method</h>, by R. Monteiro, I. Miyazato, and K. Takahashi. All the code for that letter is here.
