@@ -1,6 +1,3 @@
-___
-permalink: /index.html
-- - - 
 
 
 # Rising Sun Envelope Method
