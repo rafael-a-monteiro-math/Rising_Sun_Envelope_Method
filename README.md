@@ -2,7 +2,11 @@
 
 # Rising Sun Envelope Method
 
-This is a companion repository for the paper  <h>Decomposing XANES  spectral measurements using the Rising Sun envelope method</h>, by R. Monteiro, I. Miyazato, and K. Takahashi. All the code for that letter is here.
+This is a companion repository for the paper  <h>The Rising Sun Envelope Method: an automatic and accurate peak location technique for XANES measurements,</h>
+
+by R. Monteiro (MathAM-OIL/AIST, Sendai, Japan), I. Miyazato, and K. Takahashi (Hokkaido University, Japan).
+
+ All the code for that paper is available in this github.
 
 The method is based on a very on an old  lemma of Riesz, the Rising Sun Lemma (https://en.wikipedia.org/wiki/Rising_sun_lemma), used to study pointwise properties of functions, like its oscillations.  We use a similar construction to understand the oscillation seen in XANES, using it to "regularize" the XANES measurement by creating sequences of what we call Rising Sun functions in domains that are nested and smaller, leading to a sequence of smaller problems.
 
@@ -25,6 +29,4 @@ There are many steps in the code that can be optimized: there are many brute-for
 ## How is this notebook divided
 
 There are many auxiliary functions necessary for this code, therefore we begin by explaining them; afterwards we do the decomposition and finally we run the dimension reduction and interpolations.
-
-[[https://github.com/rafael-a-monteiro-math/RisingSunMethod-XANES-dimension-reduction/blob/master/XANES_with_marked_peaks_average-middle_step.png|alt=octocat]]
 
