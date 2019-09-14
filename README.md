@@ -22,8 +22,10 @@ There are many steps in the code that can be optimized: there are many brute-for
 
 <blockquote>
   <b>Parts where we think the code can be improved:</b>
-1. Definitely, the plateau search can be improved: it doesn't need to return only one location, but it can return all the plateau locations
-2. The interpolation can be improved, and other types of interpolations are possible; for instance, by using clamped splines in each domain. 
+ <ol>
+<li> Definitely, the plateau search can be improved: it doesn't need to return only one location, but it can return all the plateau locations</li>
+<li>The code can be improved to deal with non-noise functions. The main modification should be interted in the find peak function: whenever there is a plateau, the function should allow the 0 index to be the location of the peak. This will create an inconvenient of either repeating indices. It is a simple fix, which was not necessary in our case. </li>
+  </ol>
 </blockquote>
 
 ## How is this notebook divided
