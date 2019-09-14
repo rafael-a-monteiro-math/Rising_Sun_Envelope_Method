@@ -16,12 +16,12 @@ The method is based on a very on an old  lemma of Riesz, the Rising Sun Lemma (h
 If you cite this work, please use the following piece of code. 
 
 <blockquote>
-**Comments:**
+ <b>Comments:</b>
 There are many steps in the code that can be optimized: there are many brute-force searches that were carried out in a "careless", non-optimal way, and for someone who might use this code in a daily basis this will make the difference between a code that runs in minutes rather than hours. Please, write, improve, and make our code better. We are advocating for a new business here, and we think that there is still a lot to be improved. 
 </blockquote>
 
 <blockquote>
-  **Parts where we think the code can be improved:**
+  <b>Parts where we think the code can be improved:</b>
 1. Definitely, the plateau search can be improved: it doesn't need to return only one location, but it can return all the plateau locations
 2. The interpolation can be improved, and other types of interpolations are possible; for instance, by using clamped splines in each domain. 
 </blockquote>
