@@ -2,29 +2,29 @@
 
 # Rising Sun Envelope Method
 
-This is a companion repository for the paper  <h>The Rising Sun Envelope Method: an automatic and accurate peak location technique for XANES measurements,</h>
+This is a companion repository for the paper  
 
-by R. Monteiro (MathAM-OIL/AIST, Sendai, Japan), I. Miyazato, and K. Takahashi (Hokkaido University, Japan).
+**The Rising Sun Envelope Method: an automatic and accurate peak location technique for XANES measurements,**
 
- All the code for that paper is available in this github.
+by __R. Monteiro (MathAM-OIL/AIST, Sendai, Japan), I. Miyazato, and K. Takahashi (Hokkaido University, Japan).__
 
-The method is based on a very on an old  lemma of Riesz, the Rising Sun Lemma (https://en.wikipedia.org/wiki/Rising_sun_lemma), used to study pointwise properties of functions, like its oscillations.  We use a similar construction to understand the oscillation seen in XANES, using it to "regularize" the XANES measurement by creating sequences of what we call Rising Sun functions in domains that are nested and smaller, leading to a sequence of smaller problems.
+ All the code for that paper is available in this github, in Python.
 
-
+The method is based on a very on an old  lemma of Riesz, the Rising Sun Lemma (https://en.wikipedia.org/wiki/Rising_sun_lemma), used to study pointwise properties of functions, like its oscillations; we  use a similar construction to understand the oscillation seen in XANES measurements, "regularizing" the XANES measurement by constructing sequences of what we call Rising Sun functions in domains that are nested and smaller, leading to an iterated sequence of similar problems.
 
 
 If you cite this work, please use the following piece of code. 
 
-
-# Comments:
-
+<blockquote>
+**Comments:**
 There are many steps in the code that can be optimized: there are many brute-force searches that were carried out in a "careless", non-optimal way, and for someone who might use this code in a daily basis this will make the difference between a code that runs in minutes rather than hours. Please, write, improve, and make our code better. We are advocating for a new business here, and we think that there is still a lot to be improved. 
+</blockquote>
 
-## Parts where we think the code can be improved:
-
+<blockquote>
+  **Parts where we think the code can be improved:**
 1. Definitely, the plateau search can be improved: it doesn't need to return only one location, but it can return all the plateau locations
 2. The interpolation can be improved, and other types of interpolations are possible; for instance, by using clamped splines in each domain. 
-
+</blockquote>
 
 ## How is this notebook divided
 
