@@ -4,9 +4,10 @@
 
 This is a companion repository for the paper  
 
+
 **The Rising Sun Envelope Method: an automatic and accurate peak location technique for XANES measurements,**
 
-by __R. Monteiro (MathAM-OIL/AIST, Sendai, Japan), I. Miyazato, and K. Takahashi (Hokkaido University, Japan).__
+by __R. Monteiro (MathAM-OIL/AIST, Sendai, Japan), I. Miyazato, and K. Takahashi (Hokkaido University, Japan).__ (<a href=https://arxiv.org/abs/1909.06049>preprint arXiv, 2019</a>)
 
  All the code for that paper is available in this github, in Python.
 
