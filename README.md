@@ -9,7 +9,7 @@ This is a companion repository for the paper
 
 by __R. Monteiro (MathAM-OIL/AIST, Sendai, Japan), I. Miyazato, and K. Takahashi (Hokkaido University, Japan).__ (<a href=https://arxiv.org/abs/1909.06049>preprint arXiv, 2019</a>)
 
- All the code for that paper is available in this github, in Python.
+ All the code for that paper is available in this github in the folder "XANES-jupyter-notebook", in Python.
 
 The method is based on a very on an old  lemma of Riesz, the  <a href="https://en.wikipedia.org/wiki/Rising_sun_lemma">Rising Sun Lemma</a>, used to study pointwise properties of functions, like its oscillations; we  use a similar construction to understand the oscillation seen in XANES measurements, "regularizing" the XANES measurement by constructing sequences of what we call Rising Sun functions in domains that are nested and smaller, leading to an iterated sequence of similar problems.
 
