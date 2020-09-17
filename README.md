@@ -7,9 +7,7 @@ This is a companion repository for the paper
 
 **The Rising Sun Envelope Method: an automatic and accurate peak location technique for XANES measurements,**
 
-by __R. Monteiro (MathAM-OIL/AIST, Sendai, Japan), I. Miyazato, and K. Takahashi (Hokkaido University, Japan).__ (<a href=https://arxiv.org/abs/1909.06049>preprint arXiv, 2019</a>)
-
-(2020 update: the article has been published by  <a href=https://pubs.acs.org/doi/10.1021/acs.jpca.9b11712>The Journal of Physical Chemistry A</a>, DOI: 10.1021/acs.jpca.9b11712)
+by __R. Monteiro (MathAM-OIL/AIST, Sendai, Japan), I. Miyazato, and K. Takahashi (Hokkaido University, Japan).__ (published by  <a href=https://pubs.acs.org/doi/10.1021/acs.jpca.9b11712>The Journal of Physical Chemistry A</a>, DOI: 10.1021/acs.jpca.9b11712)
 
  All the code for that paper is available in this github in the folder "XANES-jupyter-notebook", in Python.
 
