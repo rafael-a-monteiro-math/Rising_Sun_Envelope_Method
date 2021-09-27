@@ -14,6 +14,8 @@ by __R. Monteiro (MathAM-OIL/AIST, Sendai, Japan), I. Miyazato, and K. Takahashi
 The method is based on a very on an old  lemma of Riesz, the  <a href="https://en.wikipedia.org/wiki/Rising_sun_lemma">Rising Sun Lemma</a>, used to study pointwise properties of functions, like its oscillations; we  use a similar construction to understand the oscillation seen in XANES measurements, "regularizing" the XANES measurement by constructing sequences of what we call Rising Sun functions in domains that are nested and smaller, leading to an iterated sequence of similar problems.
 
 
+![An example of the Rising Sun Envelope Method in practice](https://github.com/rafael-a-monteiro-math/Rising_Sun_Envelope_Method/blob/master/docs/xanes-optimize.gif)
+
 If you cite this work, please use the following piece of code. 
 
 <blockquote>
