@@ -31,7 +31,7 @@ There are many steps in the code that can be optimized: there are many brute-for
   </ol>
 </blockquote>
 
-## How is this notebook divided
+## How this jupyter-notebook is divided
 
 There are many auxiliary functions necessary for this code, therefore we begin by explaining them; afterwards we do the decomposition and finally we run the dimension reduction and interpolations.
 
