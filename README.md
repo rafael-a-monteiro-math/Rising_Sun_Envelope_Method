@@ -9,6 +9,13 @@ This is a companion repository for the paper
 
 by __R. Monteiro (MathAM-OIL/AIST, Sendai, Japan), I. Miyazato, and K. Takahashi (Hokkaido University, Japan).__ (published by  <a href=https://pubs.acs.org/doi/10.1021/acs.jpca.9b11712>The Journal of Physical Chemistry A</a>, DOI: 10.1021/acs.jpca.9b11712)
 
+
+You can download and unzip this repository from GitHub, either interactively, or by entering
+```
+git clone https://github.com/rafael-a-monteiro-math/Rising_Sun_Envelope_Method.git
+```
+
+ 
  All the code for that paper is available in this github in the folder "XANES-jupyter-notebook", in Python.
 
 The method is based on a very on an old  lemma of Riesz, the  <a href="https://en.wikipedia.org/wiki/Rising_sun_lemma">Rising Sun Lemma</a>, used to study pointwise properties of functions, like its oscillations; we  use a similar construction to understand the oscillation seen in XANES measurements, "regularizing" the XANES measurement by constructing sequences of what we call Rising Sun functions in domains that are nested and smaller, leading to an iterated sequence of similar problems.
